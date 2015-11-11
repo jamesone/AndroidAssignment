@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.assignment.Main" >
+
+ <!--    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/> -->
+    
+   
+		
+		<item android:id="@+id/homeMenuItem"
+			android:title="@string/homeLabel" 
+			android:alphabeticShortcut="h"/>
+		
+		 <item android:id="@+id/settingMenuItem"
+		android:title="@string/settingLabel" 
+		android:alphabeticShortcut="a"/>
+		
+		<item android:id="@+id/highscoreMenuItem"
+			android:title="@string/highscoreLabel" 
+			android:alphabeticShortcut="d"/>
+
+		<item android:id="@+id/gamesLabel"
+			android:title="@string/gamesLabel" 
+			android:alphabeticShortcut="f"/>
+		
+		<item android:id="@+id/helpLabel"
+			android:title="@string/helpLabel" 
+			android:alphabeticShortcut="he"/>
+		
+		
+
+</menu>

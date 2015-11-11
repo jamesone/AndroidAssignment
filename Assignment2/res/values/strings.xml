@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	
+    <string name="homeLabel">Home</string>
+    <string name="settingLabel">Setting</string>
+    <string name="highscoreLabel">Highscores</string>
+    <string name="gamesLabel">Games</string>
+    <string name="helpLabel">Help</string>
+    
+   <string name="radSizeHeading">Grid Size</string> 
+    <string name="radSize1">4 x 4</string>
+    <string name="radSize2">5 x 4</string>
+   
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+   
+     <TextView
+        android:id="@+id/txtGridSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radSizeHeading"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp" />
+
+    
+    <RadioGroup
+        android:id="@+id/radGroupGridSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radSize1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radSize1" />
+
+        <RadioButton
+            android:id="@+id/radSize2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radSize2" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtGridTileColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid Tile Colour"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp" />
+
+    <RadioGroup
+        android:id="@+id/radGroupTileColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radTheme1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Normal" />
+
+        <RadioButton
+            android:id="@+id/radTheme2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cool Gradient" />
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/txtDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game difficulty"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="15dp" />
+
+    <RadioGroup
+        android:id="@+id/radGroupDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radDifEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Easy" />
+
+        <RadioButton
+            android:id="@+id/radDifMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium" />
+        
+        <RadioButton
+            android:id="@+id/radDifHard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+    </RadioGroup>
+    
+
+</LinearLayout>
